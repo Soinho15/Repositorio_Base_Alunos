@@ -1,0 +1,68 @@
+/* Estilo geral */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #ffffff;
+}
+
+/* Navbar */
+nav {
+    background-color: #222;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 15px 30px;
+    align-items: center;
+    
+}
+
+/* Logo */
+nav .logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+/* Menu */
+nav .menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav .menu li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav .menu li a:hover {
+    color: #ff9800;
+}
+.master{
+    display: flex;
+    background-color: aqua;
+
+}
+img{
+    width: 250px;
+    height: 300px;
+}
+.caixa{
+    display: flex; /* colocaas divs lado a lado */
+    gap: 90px;
+    background-color: #ffffff;
+    
+}
+.caixa1  {
+    width: 150px;
+    height: 200px;
+}
+/* Container para colocar as 4 div lado lado */
+.container {
+    display: flex; /* lado a lado */
+    gap: 15px; /* altura fixa */
+    justify-content: center;
+    background-color: beige;
+    padding: 20px;
+}
